@@ -26,9 +26,9 @@ import numpy as np
 import pandas as pd
 import requests
 
-SERVER_URL = "http://<INSTRUCTOR-IP-GOES-HERE>:5000"
-TEAM = "your-team-name"
-TOKEN = "your-team-token"
+SERVER_URL = "http://130.238.27.235:5000/leaderboard"
+TEAM = "Labgrp19"
+TOKEN = "e4bb15f6"
 
 CACHE_FILE = Path(__file__).parent / "experiment_cache.json"
 
